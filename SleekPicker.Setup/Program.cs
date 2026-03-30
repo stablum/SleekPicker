@@ -476,7 +476,7 @@ namespace SleekPicker.Setup
                 return existing;
             }
 
-            var solutionPath = Path.Combine(_repoRoot, "SleekPicker.slnx");
+            var solutionPath = Path.Combine(_repoRoot, "SleekPicker.sln");
             if (!File.Exists(solutionPath))
             {
                 throw new InvalidOperationException(string.Format("Cannot locate solution file: {0}", solutionPath));

@@ -4,7 +4,7 @@ SleekPicker is a Windows 11 side-panel window picker.
 
 It runs in the background and opens when the mouse hits the right edge of the screen. The panel lists open windows grouped by virtual desktop name, shows an icon for each window, and lets you click any entry to switch to the right desktop and focus that window.
 
-Current version: `1.0.7`
+Current version: `1.0.8`
 
 ## Features
 
@@ -30,6 +30,12 @@ Current version: `1.0.7`
 - .NET 8 Runtime (required to run)
 - .NET SDK 8.0+ (required to build from source)
 - `winget` (required only if you want installer buttons to auto-install .NET)
+
+## Build
+
+```powershell
+dotnet build .\SleekPicker.sln -c Release
+```
 
 ## Run
 

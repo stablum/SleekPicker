@@ -88,7 +88,7 @@ if (Test-Path $setupBuilderPath)
     }
 }
 
-dotnet build (Join-Path $repoRoot "SleekPicker.slnx") -c Release
+dotnet build (Join-Path $repoRoot "SleekPicker.sln") -c Release
 if ($LASTEXITCODE -ne 0)
 {
     throw "Failed to build solution before packaging."

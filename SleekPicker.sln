@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SleekPicker.App", "SleekPicker.App\SleekPicker.App.csproj", "{A5B1DDEB-35B3-4329-A2E8-1AB8BE3628EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SleekPicker.Setup", "SleekPicker.Setup\SleekPicker.Setup.csproj", "{B924AD28-D7F4-4D81-9FFB-BD2B92A454B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B1DDEB-35B3-4329-A2E8-1AB8BE3628EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B1DDEB-35B3-4329-A2E8-1AB8BE3628EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B1DDEB-35B3-4329-A2E8-1AB8BE3628EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B1DDEB-35B3-4329-A2E8-1AB8BE3628EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B924AD28-D7F4-4D81-9FFB-BD2B92A454B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B924AD28-D7F4-4D81-9FFB-BD2B92A454B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B924AD28-D7F4-4D81-9FFB-BD2B92A454B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B924AD28-D7F4-4D81-9FFB-BD2B92A454B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

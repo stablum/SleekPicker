@@ -5,7 +5,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 $repoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
-$solutionPath = Join-Path $repoRoot "SleekPicker.slnx"
+$solutionPath = Join-Path $repoRoot "SleekPicker.sln"
 $appExePath = Join-Path $repoRoot "SleekPicker.App\bin\Debug\net8.0-windows10.0.19041.0\SleekPicker.App.exe"
 $appDllPath = Join-Path $repoRoot "SleekPicker.App\bin\Debug\net8.0-windows10.0.19041.0\SleekPicker.App.dll"
 
