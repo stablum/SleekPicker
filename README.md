@@ -4,7 +4,7 @@ SleekPicker is a Windows 11 side-panel window picker.
 
 It runs in the background and opens when the mouse hits the right edge of the screen. The panel lists open windows grouped by virtual desktop name, shows an icon for each window, and lets you click any entry to switch to the right desktop and focus that window.
 
-Current version: `1.0.8`
+Current version: `1.0.9`
 
 ## Features
 
@@ -150,6 +150,14 @@ exclude_untitled_windows = true
 include_minimized_windows = true
 unknown_section_name = "Unknown Desktop"
 ```
+
+## License
+
+SleekPicker is licensed under the GNU General Public License v3.0.
+
+Copyright (C) 2026 Francesco Stablum.
+
+See `LICENSE` for the full license text and `COPYRIGHT` for the project copyright notice.
 
 ## Notes
 
