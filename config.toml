@@ -1,0 +1,26 @@
+[ui]
+panel_width = 430
+corner_radius = 20
+font_family = "Carbon Plus"
+font_size = 14
+background_color = "#331A202B"
+border_color = "#66FFFFFF"
+text_color = "#FFF5F8FF"
+section_header_color = "#FF9CD4FF"
+accent_color = "#FF5FC9FF"
+hover_color = "#2FFFFFFF"
+pressed_color = "#44FFFFFF"
+surface_opacity = 0.35
+
+[behavior]
+edge_poll_ms = 80
+refresh_interval_ms = 3000
+activation_cooldown_ms = 900
+edge_trigger_pixels = 1
+edge_hold_ms = 200
+auto_hide_on_focus_loss = true
+
+[window_filter]
+exclude_untitled_windows = true
+include_minimized_windows = true
+unknown_section_name = "Unknown Desktop"

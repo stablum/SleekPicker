@@ -1,0 +1,21 @@
+# Build artifacts
+**/bin/
+**/obj/
+
+# User/local files
+*.log
+*.user
+*.suo
+.vs/
+*.ignore
+*~
+.env
+AGENTS.md
+INITIAL_INSTRUCTIONS.md
+
+# Packages
+*.zip
+
+# Generated setup launcher
+setup.exe
+SleekPicker.Setup/publish/
